@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="game-wrapper">
+        <div id="controls">
+            Rows: <input id="rows" type="text">
+            Columns: <input id="cols" type="text">
+            Mines: <input id="mines" type="text">
+            <button onclick="getBoardData()">Generate</button>
+        </div>
+        <table id="board">
+            
+        </table>
+        <div id="message"></div>
+    </div>
+</body>
+
+</html>

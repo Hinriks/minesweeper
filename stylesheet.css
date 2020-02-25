@@ -1,0 +1,43 @@
+#game-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.square {
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    background-color: #b4b4b4;
+    box-shadow: inset 3px 3px 1px 0 rgba(255,255,255,0.5), inset -3px -3px 1px 0 rgba(0,0,0,0.5);
+}
+.square img {
+    margin-top: 3px;
+    width: 20px;
+    height: 20px;
+}
+#controls {
+    padding:10px;
+    width:800px;
+    margin: 0 auto;
+}
+#board {
+    margin: 0 auto;
+    font-weight: bold;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.flag {
+    background-image: url("img/flag.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#message {
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: large;
+    text-align: center;
+}
+.green-background {
+    background-color: #7edf7e !important;
+}
